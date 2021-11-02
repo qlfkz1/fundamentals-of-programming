@@ -8,7 +8,15 @@ namespace console_game
 
         static void Welcome()
         {
-            Console.WriteLine("Welcome");
+            Console.WriteLine(@"          _______  _        _______  _______  _______  _______ 
+|\     /|(  ____ \( \      (  ____ \(  ___  )(       )(  ____ \
+| )   ( || (    \/| (      | (    \/| (   ) || () () || (    \/
+| | _ | || (__    | |      | |      | |   | || || || || (__    
+| |( )| ||  __)   | |      | |      | |   | || |(_)| ||  __)   
+| || || || (      | |      | |      | |   | || |   | || (      
+| () () || (____/\| (____/\| (____/\| (___) || )   ( || (____/\
+(_______)(_______/(_______/(_______/(_______)|/     \|(_______/
+                                                               ");
             Thread.Sleep(2000);
             Console.Clear();
         }
@@ -17,6 +25,9 @@ namespace console_game
         static void Main(string[] args)
         {
             Welcome();
+
+            string[,] array = new string[,];
+
         }
     }
 }
