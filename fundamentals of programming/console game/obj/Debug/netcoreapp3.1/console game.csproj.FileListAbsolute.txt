@@ -1,0 +1,13 @@
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.exe
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.deps.json
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.runtimeconfig.json
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.runtimeconfig.dev.json
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.dll
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.pdb
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.csprojAssemblyReference.cache
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.AssemblyInfoInputs.cache
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.AssemblyInfo.cs
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.csproj.CoreCompileInputs.cache
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.dll
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.pdb
+\\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.genruntimeconfig.cache
