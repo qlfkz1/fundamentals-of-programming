@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Student16\\Areas$\\2016204\\github\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj": {}
+    "C:\\Users\\birat\\Source\\Repos\\qlfkz1\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj": {}
   },
   "projects": {
-    "\\\\Student16\\Areas$\\2016204\\github\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj": {
+    "C:\\Users\\birat\\Source\\Repos\\qlfkz1\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Student16\\Areas$\\2016204\\github\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj",
+        "projectUniqueName": "C:\\Users\\birat\\Source\\Repos\\qlfkz1\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj",
         "projectName": "console game",
-        "projectPath": "\\\\Student16\\Areas$\\2016204\\github\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj",
-        "packagesPath": "C:\\Users\\2016204.FOLKESTONE\\.nuget\\packages\\",
-        "outputPath": "\\\\Student16\\Areas$\\2016204\\github\\fundamentals-of-programming\\fundamentals of programming\\console game\\obj\\",
+        "projectPath": "C:\\Users\\birat\\Source\\Repos\\qlfkz1\\fundamentals-of-programming\\fundamentals of programming\\console game\\console game.csproj",
+        "packagesPath": "C:\\Users\\birat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\birat\\Source\\Repos\\qlfkz1\\fundamentals-of-programming\\fundamentals of programming\\console game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\2016204.FOLKESTONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\birat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
