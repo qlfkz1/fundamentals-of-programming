@@ -11,3 +11,17 @@
 \\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.dll
 \\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.pdb
 \\Student16\Areas$\2016204\github\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.genruntimeconfig.cache
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.csproj.AssemblyReference.cache
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.AssemblyInfoInputs.cache
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.AssemblyInfo.cs
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.csproj.CoreCompileInputs.cache
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.dll
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.pdb
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.exe
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.deps.json
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.runtimeconfig.json
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.runtimeconfig.dev.json
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.dll
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\bin\Debug\netcoreapp3.1\console game.pdb
+C:\Users\birat\Source\Repos\qlfkz1\fundamentals-of-programming\fundamentals of programming\console game\obj\Debug\netcoreapp3.1\console game.genruntimeconfig.cache
