@@ -9,27 +9,41 @@ namespace console_game
         static void Welcome()
         {
             Console.WriteLine("Welcome to Tic-tac-toe!");
-            Thread.Sleep(2000);
+            Thread.Sleep(1500);
             Console.Clear();
         }
 
 
         static void generateBoard()
         {
-            int row = 5;
-            int col = 5;
+            const int row = 3;
+            const int col = 3;
 
-            string[,] board = new string[row, col];
-
-            for (int i = 0; i < 5; i++)
-            {
-                for (int v = 0; v < 5; v++)
+            string[,] board = new string[row, col]
                 {
-                    board[i, v] = " 1";
+                    {"a", "b", "c"},
+                    {"d", "e", "f"},
+                    {"g", "h", "i"}
+                };
+
+
+            for (int i = 0; i < row; i++)
+            {
+                for (int v = 0; v < col; v++)
+                {
                     Console.Write(board[i, v]);
                 }
-
+                Console.WriteLine();
             }
+
+
+            /* Console.WriteLine(" ________");
+            Console.WriteLine("|  |  |  |");
+            Console.WriteLine("|__|__|__|");
+            Console.WriteLine("|  |  |  |");
+            Console.WriteLine("|__|__|__|");
+            Console.WriteLine("|  |  |  |");
+            Console.WriteLine("|__|__|__|"); */
         }
 
         static void Main(string[] args)
@@ -37,7 +51,6 @@ namespace console_game
             Welcome();
 
             generateBoard();
-
 
         }
     }
