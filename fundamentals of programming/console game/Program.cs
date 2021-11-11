@@ -29,10 +29,13 @@ namespace console_game
 
             for (int i = 0; i < row; i++)
             {
+                Console.WriteLine(" _____ ");
+
                 for (int v = 0; v < col; v++)
                 {
-                    Console.Write(board[i, v]);
+                    Console.Write("|" + board[i, v]);
                 }
+                Console.Write("|");
                 Console.WriteLine();
             }
 
