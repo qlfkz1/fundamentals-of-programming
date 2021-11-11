@@ -13,53 +13,101 @@ namespace console_game
             Console.Clear();
         }
 
-
-        static void generateBoard()
+        static string[,] generateBoard()
         {
             const int row = 3;
             const int col = 3;
 
             string[,] board = new string[row, col]
                 {
-                    {"a", "b", "c"},
-                    {"d", "e", "f"},
-                    {"g", "h", "i"}
+                    {"[ ]", "[ ]", "[ ]"},
+                    {"[ ]", "[ ]", "[ ]"},
+                    {"[ ]", "[ ]", "[ ]"}
                 };
 
 
             for (int i = 0; i < row; i++)
             {
-                Console.WriteLine(" _____ ");
+                // Console.WriteLine(" _____ ");
 
                 for (int v = 0; v < col; v++)
                 {
-                    Console.Write("|" + board[i, v]);
+                    Console.Write(board[i, v] + " ");
                 }
-                Console.Write("|");
+                // Console.Write("|");
                 Console.WriteLine();
             }
 
+            return board;
 
-            /* Console.WriteLine(" ________");
-            Console.WriteLine("|  |  |  |");
-            Console.WriteLine("|__|__|__|");
-            Console.WriteLine("|  |  |  |");
-            Console.WriteLine("|__|__|__|");
-            Console.WriteLine("|  |  |  |");
-            Console.WriteLine("|__|__|__|"); */
+        }
+
+        static void chooseBoard(string[,] arr)
+        {
+            bool c1 = true;
+            bool c2 = true;
+
+            int row1 = 0;
+            int col1 = 0;
+
+            Console.WriteLine();
+            while (c1)
+            {
+                Console.Write("Please enter a row (1 - 3): ");
+                int row = Convert.ToInt32(Console.ReadLine());
+
+                if (row < 0 || row > 3)
+                {
+                    Console.Write("Please re-enter (1 - 3): ");
+                    row = Convert.ToInt32(Console.ReadLine());
+                } else
+                {
+                    c1 = false;
+                }
+
+                row1 = row;
+            }
+
+            Console.WriteLine();
+            while (c2)
+            {
+                Console.Write("Please enter a column (1 - 3): ");
+                int col = Convert.ToInt32(Console.ReadLine());
+
+                if (col < 0 || col > 3)
+                {
+                    Console.Write("Please re-enter (1 - 3): ");
+                    col = Convert.ToInt32(Console.ReadLine());
+                }
+                else
+                {
+                    c2 = false;
+                }
+
+                col1 = col;
+            }
+
+            arr[row1 - 1, col1 - 1] = "[X]";
+
+            Console.WriteLine();
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                // Console.WriteLine(" _____ ");
+
+                for (int v = 0; v < arr.GetLength(1); v++)
+                {
+                    Console.Write(arr[i, v] + " ");
+                }
+                // Console.Write("|");
+                Console.WriteLine();
+            }
         }
 
         static void Main(string[] args)
         {
             Welcome();
 
-            generateBoard();
-
-            Console.WriteLine("Please enter the row you would like to play (1 - 3): ");
-            int col = System.Convert.ToInt32(Console.ReadLine());
-
-
-
+            chooseBoard(generateBoard());
         }
     }
 }
