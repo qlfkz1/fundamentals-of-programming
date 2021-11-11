@@ -55,6 +55,11 @@ namespace console_game
 
             generateBoard();
 
+            Console.WriteLine("Please enter the row you would like to play (1 - 3): ");
+            int col = System.Convert.ToInt32(Console.ReadLine());
+
+
+
         }
     }
 }
