@@ -44,6 +44,9 @@ namespace console_game
 
         static void chooseBoard(string[,] arr)
         {
+            int player = 1;
+
+
             bool c1 = true;
             bool c2 = true;
 
@@ -87,7 +90,13 @@ namespace console_game
                 col1 = col;
             }
 
-            arr[row1 - 1, col1 - 1] = "[X]";
+            if (player == 1)
+            {
+                arr[row1 - 1, col1 - 1] = "[X]";
+            } else if (player == 2)
+            {
+                arr[row1 - 1, col1 - 1] = "[O]";
+            }
 
             Console.WriteLine();
             for (int i = 0; i < arr.GetLength(0); i++)
